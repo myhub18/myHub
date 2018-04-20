@@ -7,4 +7,15 @@ public class stackModel {
     public stackModel(){
         myStack = new Stack<Profile>();
     }
+
+    public void addProfile(Profile p){
+        myStack.push(p);
+    }
+    public Profile getTop(){
+        return myStack.peek();
+    }
+    public Profile getTopAndRemove(){
+        return myStack.pop();
+    }
+    
 }
