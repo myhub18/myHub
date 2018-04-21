@@ -17,5 +17,5 @@ public class stackModel {
     public Profile getTopAndRemove(){
         return myStack.pop();
     }
-    
+
 }
